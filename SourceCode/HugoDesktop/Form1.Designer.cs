@@ -144,6 +144,7 @@
             // 
             this.b_ingresar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.b_ingresar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.b_ingresar.BackColor = System.Drawing.Color.Thistle;
             this.b_ingresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_ingresar.Font = new System.Drawing.Font("CHICKEN Pie Height", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_ingresar.Location = new System.Drawing.Point(360, 401);
@@ -151,7 +152,7 @@
             this.b_ingresar.Size = new System.Drawing.Size(169, 37);
             this.b_ingresar.TabIndex = 6;
             this.b_ingresar.Text = "Ingresar";
-            this.b_ingresar.UseVisualStyleBackColor = true;
+            this.b_ingresar.UseVisualStyleBackColor = false;
             this.b_ingresar.Click += new System.EventHandler(this.b_ingresar_Click);
             // 
             // Form1
