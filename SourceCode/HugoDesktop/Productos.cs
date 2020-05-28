@@ -61,7 +61,7 @@ namespace HugoDesktop
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("ERROR");
+                    MessageBox.Show("ERROR, no se ha podido eliminar el producto");
                 }
             }
         }
