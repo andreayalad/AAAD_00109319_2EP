@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
             this.bt_agregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.bt_eliminar = new System.Windows.Forms.Button();
             this.tb_agnombrec = new System.Windows.Forms.TextBox();
-            this.tb_aggnombre = new System.Windows.Forms.TextBox();
-            this.tb_aggadmin = new System.Windows.Forms.TextBox();
             this.tb_eliminar = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.b_mostrar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tb_aggadmin = new System.Windows.Forms.TextBox();
+            this.tb_aggnombre = new System.Windows.Forms.TextBox();
             this.tb_aggcon = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -93,6 +93,18 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(930, 486);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Coolvetica Rg", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(78, 50);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(76, 22);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "Nombre";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // bt_agregar
             // 
             this.bt_agregar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -132,18 +144,6 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Contraseña";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Coolvetica Rg", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(43, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 22);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Administrador?";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -189,33 +189,19 @@
             // tb_agnombrec
             // 
             this.tb_agnombrec.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_agnombrec.Location = new System.Drawing.Point(267, 4);
+            this.tb_agnombrec.Font = new System.Drawing.Font("Coolvetica Rg", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_agnombrec.Location = new System.Drawing.Point(267, 9);
             this.tb_agnombrec.Name = "tb_agnombrec";
-            this.tb_agnombrec.Size = new System.Drawing.Size(162, 33);
+            this.tb_agnombrec.Size = new System.Drawing.Size(162, 23);
             this.tb_agnombrec.TabIndex = 13;
-            // 
-            // tb_aggnombre
-            // 
-            this.tb_aggnombre.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_aggnombre.Location = new System.Drawing.Point(267, 45);
-            this.tb_aggnombre.Name = "tb_aggnombre";
-            this.tb_aggnombre.Size = new System.Drawing.Size(162, 33);
-            this.tb_aggnombre.TabIndex = 14;
-            // 
-            // tb_aggadmin
-            // 
-            this.tb_aggadmin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_aggadmin.Location = new System.Drawing.Point(267, 127);
-            this.tb_aggadmin.Name = "tb_aggadmin";
-            this.tb_aggadmin.Size = new System.Drawing.Size(162, 33);
-            this.tb_aggadmin.TabIndex = 15;
             // 
             // tb_eliminar
             // 
             this.tb_eliminar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_eliminar.Location = new System.Drawing.Point(732, 86);
+            this.tb_eliminar.Font = new System.Drawing.Font("Coolvetica Rg", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_eliminar.Location = new System.Drawing.Point(732, 91);
             this.tb_eliminar.Name = "tb_eliminar";
-            this.tb_eliminar.Size = new System.Drawing.Size(162, 33);
+            this.tb_eliminar.Size = new System.Drawing.Size(162, 23);
             this.tb_eliminar.TabIndex = 21;
             // 
             // label6
@@ -257,24 +243,43 @@
             this.dataGridView1.Size = new System.Drawing.Size(924, 193);
             this.dataGridView1.TabIndex = 24;
             // 
-            // label7
+            // label3
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Coolvetica Rg", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(78, 50);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 22);
-            this.label7.TabIndex = 25;
-            this.label7.Text = "Nombre";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Coolvetica Rg", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(43, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(145, 22);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Administrador?";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tb_aggadmin
+            // 
+            this.tb_aggadmin.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tb_aggadmin.Font = new System.Drawing.Font("Coolvetica Rg", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_aggadmin.Location = new System.Drawing.Point(267, 132);
+            this.tb_aggadmin.Name = "tb_aggadmin";
+            this.tb_aggadmin.Size = new System.Drawing.Size(162, 23);
+            this.tb_aggadmin.TabIndex = 15;
+            // 
+            // tb_aggnombre
+            // 
+            this.tb_aggnombre.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tb_aggnombre.Font = new System.Drawing.Font("Coolvetica Rg", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_aggnombre.Location = new System.Drawing.Point(267, 50);
+            this.tb_aggnombre.Name = "tb_aggnombre";
+            this.tb_aggnombre.Size = new System.Drawing.Size(162, 23);
+            this.tb_aggnombre.TabIndex = 14;
             // 
             // tb_aggcon
             // 
             this.tb_aggcon.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_aggcon.Location = new System.Drawing.Point(267, 86);
+            this.tb_aggcon.Font = new System.Drawing.Font("Coolvetica Rg", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_aggcon.Location = new System.Drawing.Point(267, 91);
             this.tb_aggcon.Name = "tb_aggcon";
-            this.tb_aggcon.Size = new System.Drawing.Size(162, 33);
+            this.tb_aggcon.Size = new System.Drawing.Size(162, 23);
             this.tb_aggcon.TabIndex = 26;
             // 
             // Usuarios
